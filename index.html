@@ -1,86 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coalition Technologies</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    <script src="https://kit.fontawesome.com/1589047438.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/1589047438.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="announcement">
-        <div class="announcement-wrapper">
-            <div class="contact">
-                <span class="announcement-title">Call us now!</span>
-                <span class="announcement-content">385.154.11.28.35</span>
-            </div>
-            <div class="login">
-                <span class="announcement-title">Login</span>
-                <span class="announcement-content">Signup</span>  
-            </div>
+      <div class="announcement-wrapper">
+        <div class="contact">
+          <span class="announcement-title">Call us now!</span>
+          <span class="announcement-content">385.154.11.28.35</span>
         </div>
+        <div class="login">
+          <span class="announcement-title">Login</span>
+          <span class="announcement-content">Signup</span>
+        </div>
+      </div>
     </div>
 
     <main>
-        <header>
-            <div class="header-wrapper">
-                <img class="logo" src="images/logo.png" alt="Logo">
+      <header>
+        <div class="header-wrapper">
+          <img class="logo" src="images/logo.png" alt="Logo" />
 
-                <nav>
-                    <ul class="nav-wrapper">
-                        <li>title 1</li>
-                        <li class="active">title 2</li>
-                        <li>title 3</li>
-                        <li>title 4</li>
-                        <li>title 5</li>
-                        <li>title 6</li>
-                        <li>title 7</li>
-                    </ul>
-                </nav>
+          <nav>
+            <ul class="nav-wrapper">
+              <li>title 1</li>
+              <li class="active">title 2</li>
+              <li>title 3</li>
+              <li>title 4</li>
+              <li>title 5</li>
+              <li>title 6</li>
+              <li>title 7</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="main-section">
+        <div class="main-section-wrapper">
+          <!-- <span class="breadcrum">Home / Who we are / Contact</span> -->
+          <ul class="breadcrum">
+            <li>Home /</li>
+            <li>Who we are /</li>
+            <li>Contact</li>
+          </ul>
+          <h1 class="title">Contact</h1>
+          <p class="overview">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            posuere ipsum nec velit mattis elementum. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Maecenas eu placerat metus, eget placerat libero.
+          </p>
+          <div class="bottom-section">
+            <div class="bottom-block">
+              <h2>Contact us</h2>
+              <hr />
+              <form action="">
+                <input type="text" id="first-name" name="first-name" placeholder="Name *">
+                <input type="tel" id="phone" name="phone" placeholder="Phone *">
+                <input type="text" id="email" name="email" placeholder="Email *">
+                <textarea type="text" id="message" name="message" rows="4" cols="50" placeholder="Message *"></textarea>
+                <input class="submit" type="submit" value="Submit">
+              </form>
             </div>
-        </header>
-
-        <section class="main-section">
-            <div class="main-section-wrapper">
-                <!-- <span class="breadcrum">Home / Who we are / Contact</span> -->
-                 <ul class="breadcrum">
-                    <li>Home / </li>
-                    <li>Who we are / </li>
-                    <li>Contact</li>
-                 </ul>
-                <h1 class="title">Contact</h1>
-                <p class="overview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam posuere ipsum nec velit mattis elementum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas eu placerat metus, eget placerat libero.</p>
-                <div class="bottom-section">
-                    <div class="bottom-block">
-                        <h2>Contact us</h2>
-                        <hr>
-                    </div>
-                    <div class="bottom-block">
-                        <h2>Reach us</h2>
-                        <hr>
-                        <p>Coalition Skills Test<br>
-                            535 La Plata Street<br>
-                            4200 Argentina</p>
-                            <p>
-                                Phone: 385.154.11.28.38<br>
-                                Fax: 385.154.35.66.78
-                            </p>
-                            <ul class="social-links">
-                                <li><i class="fa-brands fa-facebook-f"></i></li>
-                                <li><i class="fa-brands fa-twitter"></i></li>
-                                <li><i class="fa-brands fa-instagram"></i></li>
-                                <li><i class="fa-brands fa-pinterest-p"></i></li>
-                            </ul>
-                    </div>
-                </div>
+            <div class="bottom-block-2">
+              <h2>Reach us</h2>
+              <hr />
+              <p>Coalition Skills Test</p>
+              <p>
+                535 La Plata Street<br/>
+                4200 Argentina
+              </p>
+              <p>
+                Phone: 385.154.11.28.38<br/>
+                Fax: 385.154.35.66.78
+              </p>
+              <ul class="social-links">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-pinterest-p"></i></li>
+              </ul>
             </div>
-
-            
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

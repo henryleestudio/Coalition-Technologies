@@ -91,13 +91,6 @@ ul {
     width: 1080px;
 }
 
-/* .breadcrum {
-    font-size: 15px;
-    color: #adadad;
-    margin-top: 30px;
-    display: block;
-} */
-
 .breadcrum {
     font-size: 15px;
     color: #adadad;
@@ -111,6 +104,7 @@ ul {
     color: #adadad;
     margin-top: 23px;
     font-weight: 500;
+    margin-right: 3px;
 }
 
 .breadcrum li:last-child {
@@ -144,6 +138,7 @@ h2 {
 hr {
     border: #525252 solid 3px;
     padding: 0;
+    margin-top: 11px;
 }
 
 .bottom-section {
@@ -151,8 +146,12 @@ hr {
 }
 
 .bottom-block {
-    width: 50%;
+    width: 49%;
     padding-right: 85px;
+}
+
+.bottom-block-2 {
+    width: 42.5%;
 }
 
 .social-links {
@@ -163,8 +162,9 @@ hr {
 .social-links li {
     color: #fff;
     background: #D0D0D0;
-    width: 25px;
-    height: 25px;
+    margin-top: 25px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
     display: flex;
     justify-content: center;
@@ -173,4 +173,40 @@ hr {
 
 .social-links li:first-child {
     background: #363636;
+}
+
+.bottom-block-2 p:first-child {
+    margin-top: 10px;
+}
+
+.bottom-block-2 p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #525252;
+}
+
+form {
+    margin-top: 19px;
+}
+
+input {
+    height: 35px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: .5px solid #EDEDED;
+    background: #F6F6F6;
+    border-radius: 0px;
+}
+
+.submit {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    background: #ff6200;
+    padding: 10px 10px;
+    width: 85px;
 }
