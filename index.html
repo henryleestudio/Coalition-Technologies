@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coalition Technologies</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <Script src="js/main.js"></Script>
     <script
       src="https://kit.fontawesome.com/1589047438.js"
       crossorigin="anonymous"
@@ -38,13 +39,18 @@
 
           <nav>
             <ul class="nav-wrapper">
-              <li>title 1</li>
-              <li class="active">title 2</li>
-              <li>title 3</li>
-              <li>title 4</li>
-              <li>title 5</li>
-              <li>title 6</li>
-              <li>title 7</li>
+              <li><a href="#">title 1</a></li>
+              <li class="dropdown"><a href="#">title 2</a></li>
+                <ul class="sub-menu">
+                    <li><a href="#"><span>Submenu 1</span></a></li>
+                    <li><a href="#"><span>Submenu 2</span></a></li>
+                    <li><a href="#"><span>Submenu 3</span></a></li>
+                </ul>
+              <li><a href="#">title 3</a></li>
+              <li><a href="#">title 4</a></li>
+              <li><a href="#">title 5</a></li>
+              <li><a href="#">title 6</a></li>
+              <li><a href="#">title 7</a></li>
             </ul>
           </nav>
         </div>
@@ -73,7 +79,7 @@
                 <input type="text" id="first-name" name="first-name" placeholder="Name *">
                 <input type="tel" id="phone" name="phone" placeholder="Phone *">
                 <input type="text" id="email" name="email" placeholder="Email *">
-                <textarea type="text" id="message" name="message" rows="4" cols="50" placeholder="Message *"></textarea>
+                <textarea type="text" id="message" name="message" rows="8" cols="50" placeholder="Message *"></textarea>
                 <input class="submit" type="submit" value="Submit">
               </form>
             </div>
