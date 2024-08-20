@@ -1,0 +1,176 @@
+body {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.announcement {
+    height: 40px;
+    color: white;
+    background: #ff6200;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.announcement-wrapper {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: .1px;
+}
+
+.announcement-title {
+    color: #be3600;
+}
+
+.announcement-content {
+    padding-left: 10px;
+}
+
+header {
+    background: #f9f9f9;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper {
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+    max-width: 194px;
+    height: 43px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 471px;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+.nav-wrapper li {
+    font-size: 14.5px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.active {
+    border-bottom: #ff6200 solid 4.25px;
+    padding-bottom: 6px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section-wrapper {
+    width: 1080px;
+}
+
+/* .breadcrum {
+    font-size: 15px;
+    color: #adadad;
+    margin-top: 30px;
+    display: block;
+} */
+
+.breadcrum {
+    font-size: 15px;
+    color: #adadad;
+    margin-top: 30px;
+    display: flex;
+    padding: 0px;
+}
+
+.breadcrum li {
+    font-size: 15px;
+    color: #adadad;
+    margin-top: 23px;
+    font-weight: 500;
+}
+
+.breadcrum li:last-child {
+    color: #222222;
+}
+
+.title {
+    color: #ff6200;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.overview {
+    color: rgb(172, 172, 172)	;
+    margin-top: -10px;
+    line-height: 23px;
+    max-width: 980px;
+}
+
+h2 {
+    color: #ff6200;
+    font-size: 27px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 39px;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: #525252 solid 3px;
+    padding: 0;
+}
+
+.bottom-section {
+    display: flex;
+}
+
+.bottom-block {
+    width: 50%;
+    padding-right: 85px;
+}
+
+.social-links {
+    display: flex;
+    padding: 0px;
+}
+
+.social-links li {
+    color: #fff;
+    background: #D0D0D0;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links li:first-child {
+    background: #363636;
+}
