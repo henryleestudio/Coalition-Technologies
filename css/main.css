@@ -284,3 +284,50 @@ input, textarea {
     width: 117px;
     font-size: 14px;
 }
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    nav, section, .announcement, header {
+        padding: 0px 20px;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    form input:nth-child(n+2):nth-child(-n+3) {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-block-2, .bottom-block {
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: inline-block;
+        color: #363636;
+    }
+
+    .fa-bars  {
+        color: #363636;
+        font-size: 28px;
+        margin-top: 12px;
+    }
+}
