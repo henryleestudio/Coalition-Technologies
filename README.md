@@ -1,8 +1,6 @@
 # Coalition Technologies | Front End Responsive
 
-I revamped the "Our Team" page for Traffic Safety Store, specifically targeting the image grid. I transitioned from Bootstrap styles to a more flexible and efficient design using Flexbox. The goal was to enhance responsiveness and improve the overall layout.
-
-The key modification involved rewriting the image grid to utilize Flexbox, ensuring a maximum of 4 images per row. This not only adheres to modern design principles but also enhances the user experience by maintaining a clean and organized appearance. The end result is a responsive and visually pleasing layout that optimally showcases the Traffic Safety Store team on the "Our Team" page.
+A pixel perfect PSD to HTML / CSS conversion of a Coalition Technologies file.
 
 Link to project: <a target="_blank" href="[https://henryleestudio.github.io/traffic-safety-store-front-end-flex-grid/](https://henryleestudio.github.io/Coalition-Technologies/)">live demo</a>
 
