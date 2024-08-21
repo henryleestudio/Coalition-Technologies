@@ -2,7 +2,7 @@
 
 A pixel perfect PSD to HTML / CSS conversion of a Coalition Technologies file.
 
-Link to project: <a target="_blank" href="[https://henryleestudio.github.io/traffic-safety-store-front-end-flex-grid/](https://henryleestudio.github.io/Coalition-Technologies/)">live demo</a>
+Link to project: <a target="_blank" href="[https://henryleestudio.github.io/Coalition-Technologies/](https://henryleestudio.github.io/Coalition-Technologies/)">live demo</a>
 
 ![henryleestudio github io_Coalition-Technologies_](https://github.com/user-attachments/assets/50548870-9f9f-4007-91ee-8eec4c2782b7)
 
