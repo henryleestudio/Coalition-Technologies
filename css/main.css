@@ -85,14 +85,15 @@ ul {
     cursor:pointer;  
 }
 
-.dropdown {
+.nav-wrapper > li a:hover {
     border-bottom: #ff6200 solid 4.25px;
     padding-bottom: 6px;
+    font-weight: 500;
 }
 
 .sub-menu {
     position: absolute;
-    top: 170%;
+    top: 232%;
     left: 57px;
     width: 110px;
     height: 114px;
@@ -104,6 +105,14 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.sub-menu li a:hover {
+    font-weight: 500;
+}
+
+.muli-sub-menu li a:hover {
+    font-weight: 500;
 }
 
 .muli-sub-menu {
